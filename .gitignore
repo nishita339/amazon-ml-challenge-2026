@@ -1,0 +1,45 @@
+# ============================================
+# Amazon ML Challenge 2026 - Entity Resolution
+# ============================================
+
+# === LARGE DATA FILES (MUST EXCLUDE) ===
+# Dataset files are 200MB-500MB each (~2GB total)
+dataset/
+*.tsv
+
+# === OUTPUT FILES (large, regenerable) ===
+output/
+!output/.gitkeep
+
+# === WORK / INTERMEDIATE FILES ===
+work/
+*.sqlite
+
+# === SUBMISSION ARCHIVES ===
+*.zip
+
+# === OS / IDE FILES ===
+.DS_Store
+__MACOSX/
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.code-workspace

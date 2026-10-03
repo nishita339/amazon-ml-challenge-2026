@@ -1,0 +1,31 @@
+{
+  "threshold": 0.62,
+  "candidate_limit": 100,
+  "features": [
+    "name_jaccard",
+    "name_containment",
+    "name_trigram_jaccard",
+    "address_jaccard",
+    "address_containment",
+    "digit_jaccard",
+    "exact_name",
+    "exact_address",
+    "name_length_ratio",
+    "is_source2",
+    "first_token_overlap",
+    "name_sequence_ratio",
+    "name_sorted_ratio",
+    "address_sorted_ratio",
+    "digit_containment",
+    "exact_digit_overlap",
+    "last_token_overlap"
+  ],
+  "validation_macro_f05": 0.8140722840300425,
+  "validation_entities": 4015,
+  "candidate_recall_sample": 0.7760749070174677,
+  "training_entities_sampled": 20000,
+  "positive_candidate_pairs": 42754,
+  "trainable_candidate_pairs": 830214,
+  "seed": 2026,
+  "normalizer_version": 3
+}
