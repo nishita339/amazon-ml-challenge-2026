@@ -181,14 +181,6 @@ Computed as a **macro-average**: F₀.₅ is calculated per Source 1 entity, the
 
 ---
 
-## 👥 Team
-
-**Team 404 Not Found**
-- **Nishita Singh** — RTU, Kota
-- **Monika**
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
